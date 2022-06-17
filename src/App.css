@@ -1,0 +1,118 @@
+#firstSection {
+  background-image: url(https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60rem;
+  position: relative;
+  background-clip: clip;
+  background-attachment: fixed;
+}
+#firstRow {
+  background-color: rgba(0, 0, 0, 0.465);
+  height: 5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
+li:last-child {
+  color: white;
+  background-color: orangered;
+  width: 6rem;
+  height: 2.3rem;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+}
+h2 {
+  color: orangered;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 1.3rem;
+  width: 20% !important;
+  height: 4.5rem;
+  background: white;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+}
+h3:hover {
+  color: white;
+  background-color: orangered;
+}
+
+#about{
+    background-color:rgb(70, 70, 70);
+    height: 25rem;
+}
+#about > h1{
+    color: orangered;
+    text-align: center;
+    padding-top:4rem
+}
+#houses{
+  width: 100%;
+}
+#houses > div > h1{
+  width: 16%;
+  color: black;
+  text-align: center;
+  padding-top:4rem;
+  padding-bottom:.4rem;
+  border-bottom:solid 4px orangered;
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
